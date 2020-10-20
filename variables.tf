@@ -327,7 +327,7 @@ variable "redirect_all_requests_to" {
 
 variable "error_document" {
   type        = string
-  default     = ""
+  default     = "index.html"
   description = "An absolute path to the document to return in case of a 4XX error"
 }
 
